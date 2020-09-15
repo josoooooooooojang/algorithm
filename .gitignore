@@ -259,3 +259,6 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/Repo_Algo/Repo_Algo/N과M.cpp
+/Repo_Algo/Repo_Algo/소스.cpp
+/Repo_Algo/Repo_Algo/소스1.cpp
