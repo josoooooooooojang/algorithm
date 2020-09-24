@@ -57,5 +57,8 @@
     <ClCompile Include="2580. 스도쿠.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
+    <ClCompile Include="14888. 연산자 끼워넣기.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
