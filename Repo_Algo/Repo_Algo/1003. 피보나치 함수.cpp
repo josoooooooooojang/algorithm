@@ -1,0 +1,37 @@
+#include <iostream>
+#define ZERO	0
+#define ONE		1
+using namespace std;
+
+int nArr[41][2];
+
+void init()
+{
+	nArr[0][ZERO] = 1;
+	nArr[0][ONE] = 0;
+	nArr[1][ZERO] = 0;
+	nArr[1][ONE] = 1;
+
+	for (int i = 2; i < 41; i++)
+	{
+		nArr[i][ZERO] = nArr[i - 2][ZERO] + nArr[i - 1][ZERO];
+		nArr[i][ONE] = nArr[i - 2][ONE] + nArr[i - 1][ONE];
+	}
+}
+
+int main()
+{
+	init();
+
+	int T = 0;
+	cin >> T;
+
+	for (int i = 0; i < T; i++)
+	{
+		int N = 0;
+		cin >> N;
+		cout << nArr[N][ZERO] << " " << nArr[N][ONE] << "\n";
+	}
+
+	return 0;
+}
