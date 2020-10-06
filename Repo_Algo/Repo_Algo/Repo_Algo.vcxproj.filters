@@ -60,5 +60,11 @@
     <ClCompile Include="14888. 연산자 끼워넣기.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
+    <ClCompile Include="1904. 01타일.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9461. 파도반수열.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
