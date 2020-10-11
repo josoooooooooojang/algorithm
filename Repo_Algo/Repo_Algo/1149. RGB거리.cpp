@@ -8,7 +8,7 @@ int main()
 {
 	int N = 0;
 	cin >> N;
-	
+
 	int nCost[1000][3];
 
 	for (int i = 0; i < N; i++)

@@ -60,10 +60,19 @@
     <ClCompile Include="14888. 연산자 끼워넣기.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="1904. 01타일.cpp">
+    <ClCompile Include="9461. 파도반수열.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="소스2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="9461. 파도반수열.cpp">
+    <ClCompile Include="1149. RGB거리.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1904. 01타일.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1932. 정수 삼각형.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
   </ItemGroup>
