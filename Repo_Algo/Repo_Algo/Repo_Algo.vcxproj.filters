@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\baekjoon">
       <UniqueIdentifier>{5ce241d1-34df-4b95-a741-4cde64e7c0b7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\programers">
+      <UniqueIdentifier>{f2650e8c-a7bf-4195-a2f5-e122e99cb926}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\1208.cpp">
@@ -74,6 +77,15 @@
     </ClCompile>
     <ClCompile Include="1932. 정수 삼각형.cpp">
       <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="완주하지 못한 선수_1.cpp">
+      <Filter>소스 파일\programers</Filter>
+    </ClCompile>
+    <ClCompile Include="체육복.cpp">
+      <Filter>소스 파일\programers</Filter>
+    </ClCompile>
+    <ClCompile Include="모의고사.cpp">
+      <Filter>소스 파일\programers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

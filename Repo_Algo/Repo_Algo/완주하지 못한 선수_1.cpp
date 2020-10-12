@@ -1,17 +1,17 @@
 #include <iostream>
 #include <vector>
-#include <unordered_map>
+#include <map>
 
 using namespace std;
 
 string solution(vector<string> participant, vector<string> completion) {
-	unordered_map<string, int> m;
+	map<string, int> m;
 
 	// 참가자목록을 맵에 넣는다.
 	for (string name : participant)
 	{
 		auto it = m.find(name);
-		
+
 		if (it == m.end())
 		{
 			m.insert(make_pair(name, 1));
