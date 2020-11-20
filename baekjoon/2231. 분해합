@@ -1,0 +1,37 @@
+## 1. 풀이
+  - N을 입력 받음
+  - 1부터 N-1까지 생성자에 해당하는지 확인
+    => sum은 i부터 시작
+    => i를 string으로 바꾼 후 각 자리값도 더함
+    => 더한 값이 N과 같고 기존 최솟값보다 작으면 갱신
+  - 최솟값이 MAX_VALUE(9999999)면 0을 출력, 아니면 그대로 출력
+  
+```c++
+#include <iostream>
+#include <string>
+
+#define    MAX_VALUE    9999999
+
+using namespace std;
+
+int main(){
+    int N = 0;
+    cin >> N;
+    
+    string sTemp = "";
+    int sum = 0;
+    int answer = MAX_VALUE;
+    for(int i = 1; i < N; i++){
+        sum = i;
+        sTemp = to_string(i);
+        for(char c : sTemp)
+            sum += c - '0';
+        
+        answer = sum == N && i < answer ? i : answer;
+    }
+    
+    cout << (answer == MAX_VALUE ? 0 : answer);
+    
+    return 0;
+}
+```
